@@ -6,7 +6,7 @@ mcp server for jenkins build tasks
 ```
 vim .env # config jenkins url, user and token and openai api model and api key.
 ```
-and edit server_config.json for your own mcp server port
+and edit server_config.json for your own mcp server port  
 2. launch server
 ```
 python3 mcp_server.py
