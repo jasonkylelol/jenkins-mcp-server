@@ -56,7 +56,7 @@ def build_jenkins_job(project, tag: str, params: dict) -> str:
 
 @mcp.prompt()
 def build_jenkins_job_prompt() -> str:
-    return "help me build jenkins image"
+    return "help me start jenkins task"
 
 if __name__ == "__main__":
     # mcp.run(transport="stdio")
